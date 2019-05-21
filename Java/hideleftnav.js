@@ -1,3 +1,4 @@
+<!--Java code to copy and paste into the left nav-->
 <style unselectable=”on”>  
     /* On site page hide left navigation menu */  
      
