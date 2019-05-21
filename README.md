@@ -1,5 +1,7 @@
 # SP-Code
 Share SharePoint code
+
+<!--HIDE LEFT NAVIGATION-->
 <style unselectable=”on”>  
     /* On site page hide left navigation menu */  
      
