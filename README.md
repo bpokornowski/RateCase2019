@@ -1,2 +1,2 @@
-# RateCase2019
-Share SharePoint code regarding 2019RateCase
+# SP-Code
+Share SharePoint code
