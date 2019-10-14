@@ -1,0 +1,33 @@
+Requirement: Increase SharePoint 2013 multi-lookup field width
+
+Solution: Use CSS styles to set lookup field width in SharePoint! Here is how:
+•Navigate to: http://your-sharepoint-site.com/Lists/Your-List/editform.aspx
+•Click on "Site Settings" gear >> Edit Page
+•Click on "Add Web Part" link and then choose "Script Editor "from "Media and Content" group
+•Click on "Edit Snippet" link script editor and Paste the below CSS in it. Save and close the page.
+
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+ 
+<style>
+.ms-formtable table.ms-long {
+    width:600px !important;
+}
+ 
+.ms-formtable table.ms-long .ms-input>select {
+    width:300px !important;
+}
+</style>
+ 
+
+
+#Read more: https://www.sharepointdiary.com/2015/03/increase-sharepoint-2013-multi-lookup-column-width.html#ixzz62LqfxLXB
