@@ -1,0 +1,9 @@
+Within an email I am providing a link to document libraty items using dispform.aspx as part of the link so users can view the form and if desired click on edit form to make changes. It all works great, but the problem is the form also shows a "See Also" section that displays links underneath the "See Also" section. This is very confusing for users. How do I turn off the "See Also" section.
+
+I assume I need to probably change the structure of the link, but not sure what part needs to be changed...
+
+<style type="text/css">
+
+.ms-recommendations-panel{display:none !important;}
+
+</style>
