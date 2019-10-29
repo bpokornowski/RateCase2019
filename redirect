@@ -1,0 +1,2 @@
+window.location.replace("URL");
+window.location.href = "URL";
