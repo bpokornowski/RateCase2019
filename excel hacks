@@ -1,1 +1,2 @@
 =RIGHT(B2,LEN(B2)-FIND("@",B2))
+=LEFT(A2,FIND("@",A2)-1)
